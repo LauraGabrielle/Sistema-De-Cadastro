@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.container-fluid 
+{
+    text-align: center;
+}
+
+body {
+    background-color: rgb(155, 140, 170);
+}
+
+.preloader {
+    width: 40%;  
+    height: 85%;
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.4),
+        rgba(255, 255, 255, 0.4)
+    ), url('./imagem/cidade.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 100000; */
+    position: absolute; /*fixed*/
+    top: 1;
+    left: 0;
+    right: 0;    
+}
+
+.loader {
+    position: relative;
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    background: transparent;
+    border-top: 2.2px solid #FFF;
+    border-left: 2.2px solid #FFF;
+    border-bottom: none;
+    border-right: none;
+    animation: spin 0.5s linear infinite;
+}
+
+.tabela {
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+    
+    text-align: center;
+    position: relative;
+
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.input {
+    margin-left: 120px;
+}
